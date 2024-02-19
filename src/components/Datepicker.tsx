@@ -212,6 +212,7 @@ const Datepicker: React.FC<DatepickerType> = ({
                 end: null
             });
             setInputText("");
+            setDayHover(null);
         }
     }, [asSingle, value, displayFormat, separator]);
 
